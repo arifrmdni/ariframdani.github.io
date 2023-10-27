@@ -1,0 +1,78 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 10rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  box-sizing: border-box;
+  color: white;
+}
+
+/*------ #198754 -----*/
+
+/*--- Navbar--*/
+
+/*--- End Navbar--*/
+
+/*--- hero section--*/
+.con {
+}
+
+.typo1 {
+  width: 500px;
+  height: 500px;
+}
+
+.sec-txt {
+  position: relative;
+  top: 0;
+  left: 0;
+  animation: animate 1s alternate;
+}
+
+@keyframes animate {
+  0% {
+    left: 20%;
+  }
+}
+
+/*--- end hero section--*/
+
+/*--- about section--*/
+#abt_me p {
+  font-family: "Kanit";
+}
+
+.intro {
+  width: 500px;
+  height: 250px;
+  top: 0;
+  left: 0;
+  animation: animate3 1s steps(12) alternate;
+}
+
+@keyframes animate3 {
+  0% {
+    left: 20%;
+  }
+}
+
+/*--- end about section--*/
+
+/*--- Porjects--*/
+#project p {
+  font-family: Kanit;
+}
+/*--- End Porjects--*/
+
+/*--- Contact Me--*/
+#contact {
+  height: 40rem;
+}
+#contact p {
+  font-family: Kanit;
+}
+/*--- End Porjects--*/
